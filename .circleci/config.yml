@@ -40,7 +40,7 @@ configure_infrastructure:
 # Sequential workflow
 workflows:
   # Name the workflow
-  JoshWorkflow:
+  myWorkflow:
     jobs:
       - create_infrastructure
       - configure_infrastructure
